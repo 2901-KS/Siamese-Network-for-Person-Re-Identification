@@ -289,6 +289,3 @@ Hardware: NVIDIA Tesla T4
 The core methodology is based on the original Google Colab implementation and has been reorganized into a reusable project structure with separate modules for dataset handling, model training, embedding generation, inference, and retrieval evaluation.
 
 The current implementation has been trained and evaluated on the configured person re-identification triplet dataset, with Recall@1, Recall@5, and Recall@10 reported above.
-
-```
-```
