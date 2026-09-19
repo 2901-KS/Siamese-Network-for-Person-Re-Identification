@@ -1,0 +1,22 @@
+data:
+  root: ./data
+  image_dir: train
+  triplet_csv: train.csv
+
+model:
+  backbone: efficientnet_b0
+  embedding_size: 512
+  pretrained: true
+
+training:
+  batch_size: 32
+  learning_rate: 0.001
+  epochs: 15
+  margin: 1.0
+  seed: 42
+  val_size: 0.20
+  num_workers: 2
+
+paths:
+  checkpoint_dir: checkpoints
+  output_dir: outputs/results
