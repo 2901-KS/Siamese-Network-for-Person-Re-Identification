@@ -1,4 +1,4 @@
-````markdown
+
 # Siamese Network for Person Re-Identification
 
 A PyTorch-based person re-identification project that learns discriminative visual embeddings from anchor-positive-negative image triplets and retrieves visually similar people using embedding distance.
